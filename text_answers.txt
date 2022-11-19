@@ -1,0 +1,28 @@
+1 - What’s a relational database?
+
+To persist data. It has tables, columns, rows and the tables are connected with foreign_keys.
+
+2 - What are the different “table relationships” you know?
+
+1:N  (one to many)
+N:N (many to many)
+1:1(rarely used)
+
+3 - What’s the language to make queries to a database?
+
+SQL Structured Query language
+
+4 - What’s the language to make queries to a database?
+
+AR makes running SQL queries simpler by giving us methods. It maps the instance variables in the models to the column.
+
+5 - What’s a migration?
+We need to do a migration to modify the structure of the db
+
+6 - How do you run a migration?
+
+rake db:migrate
+
+7 - Can we save an object in the DB if its validations do not pass?
+
+NO
